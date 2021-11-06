@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 12
+      nodejs: 14
   pre_build:
     commands:
     - npm install
@@ -11,7 +11,7 @@ phases:
     - npm run build
   post_build:
     commands:
-    - npm start
+    - echo Build completed
 artifacts:
   base-directory: lib/client
   files:
