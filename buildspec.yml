@@ -12,9 +12,6 @@ phases:
   post_build:
     commands:
       - echo Build completed
-  build:
-    commands:
-      - npm start   
 artifacts:
   base-directory: lib/client
   files:
