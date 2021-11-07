@@ -45,6 +45,8 @@ var html = {
     less.dest
   ]
 };
+var port = process.env.PORT || 8080; // set the port
+
 
 var env = Object.assign({
   NODE_ENV: 'development',
