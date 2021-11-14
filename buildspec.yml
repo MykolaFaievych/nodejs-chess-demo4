@@ -11,7 +11,7 @@ phases:
     - npm run build
   post_build:
     commands:
-    - npm start
+    - npm run client
 artifacts:
   base-directory: lib/client
   files:
