@@ -19,6 +19,4 @@ artifacts:
 #    artifact1:
 #      files:
 #        - 'lib/client/*'
-#    artifact2:
-#      files:
-#        - 'lib/server/*'
+
