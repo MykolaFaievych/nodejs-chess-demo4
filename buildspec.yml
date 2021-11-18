@@ -12,4 +12,13 @@ phases:
   post_build:
     commands:
     - echo Build completed
-
+artifacts:
+  base-directory: lib/client
+  files:
+    - '**/*'
+#    artifact1:
+#      files:
+#        - 'lib/client/*'
+#    artifact2:
+#      files:
+#        - 'lib/server/*'
