@@ -13,7 +13,7 @@ phases:
     commands:
     - echo Build completed
 artifacts:
-  base-directory: build
+  base-directory: nodejs-chess-demo4
   files:
     - '**/*'
 #    artifact1:
