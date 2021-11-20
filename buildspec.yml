@@ -12,9 +12,3 @@ phases:
   post_build:
     commands:
     - echo Build completed
-artifacts:
-  base-directory: /
-  files:
-    - '**/*'
-#    artifact1:
-#        - 'lib/server/*'
