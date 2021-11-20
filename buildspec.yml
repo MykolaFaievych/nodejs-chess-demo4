@@ -13,9 +13,16 @@ phases:
     commands:
     - pwd
 artifacts:
-  base-directory: /codebuild/output/
   files:
-    - '**/*'
+    - README.md
+    - package.json
+    - config.js
+    - gulpfile.js
+    - node_modules/**/*
+    - lib/**/*
+    - clinet/**/*
+    - rds-combined-ca-bundle.pem
+    - npm-shrinkwrap.json
 #    artifact1:
 #      files:
 #        - 'lib/client/*'
