@@ -13,7 +13,7 @@ phases:
     commands:
     - pwd
 artifacts:
-  base-directory: /codebuild/output/src482266741/src
+  base-directory: /src
   files:
     - '**/*'
 #    artifact1:
