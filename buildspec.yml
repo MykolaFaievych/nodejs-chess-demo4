@@ -20,7 +20,7 @@ artifacts:
     - gulpfile.js
     - node_modules/**/*
     - lib/**/*
-    - clinet/**/*
+    - client/**/*
     - rds-combined-ca-bundle.pem
     - npm-shrinkwrap.json
 #    artifact1:
