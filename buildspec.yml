@@ -13,7 +13,7 @@ phases:
     commands:
     - pwd
 artifacts:
-  base-directory: /src
+  base-directory: src
   files:
     - '**/*'
 #    artifact1:
