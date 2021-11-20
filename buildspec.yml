@@ -21,6 +21,7 @@ artifacts:
     - node_modules/**/*
     - lib/**/*
     - client/**/*
+    - tasks/*
     - rds-combined-ca-bundle.pem
     - npm-shrinkwrap.json
 #    artifact1:
