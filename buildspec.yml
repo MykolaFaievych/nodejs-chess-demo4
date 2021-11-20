@@ -11,7 +11,7 @@ phases:
     - npm run build
   post_build:
     commands:
-    - echo Build completed
+    - pwd
 artifacts:
   base-directory: lib/server
   files:
