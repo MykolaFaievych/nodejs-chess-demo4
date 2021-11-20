@@ -13,7 +13,7 @@ phases:
     commands:
     - echo Build completed
 artifacts:
-  base-directory: /var/app/current/
+  base-directory: /
   files:
     - '**/*'
 #    artifact1:
