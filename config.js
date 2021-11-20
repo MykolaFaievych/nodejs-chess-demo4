@@ -45,12 +45,12 @@ var html = {
     less.dest
   ]
 };
-
+var port = process.env.PORT || 8080; // set the port
 
 
 var env = Object.assign({
   NODE_ENV: 'development',
-  API_URL: '//3.135.121.101:8081'
+  API_URL: '//localhost:80'
 }, process.env);
 
 module.exports = {
