@@ -13,8 +13,9 @@ phases:
     commands:
     - pwd
 artifacts:
+  base-directory: client, lib
   files:
-    - client
+    - '**/*'
 #    artifact1:
 #      files:
 #        - 'lib/client/*'
