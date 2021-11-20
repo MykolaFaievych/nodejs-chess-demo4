@@ -45,12 +45,12 @@ var html = {
     less.dest
   ]
 };
-var port = process.env.PORT || 8080; // set the port
+
 
 
 var env = Object.assign({
   NODE_ENV: 'development',
-  API_URL: '//localhost:8081'
+  API_URL: 'http://nodejs-chess.s3-website.us-east-2.amazonaws.com:8081'
 }, process.env);
 
 module.exports = {
