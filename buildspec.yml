@@ -27,4 +27,4 @@ artifacts:
     - npm-shrinkwrap.json
 #    artifact1:
 #      files:
-#        - 'lib/client/*'
+#        - 'lib/client/*
