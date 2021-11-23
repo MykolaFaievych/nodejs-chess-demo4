@@ -11,7 +11,7 @@ phases:
     - npm run build
   post_build:
     commands:
-    - pwd
+    - echo Build succeeded
 artifacts:
   files:
     - README.md
@@ -19,11 +19,14 @@ artifacts:
     - config.js
     - gulpfile.js
     - node_modules/**/*
-    - lib/**/*
+    - lib/server/*
+    - lib/common/*
     - client/**/*
     - tasks/*
     - rds-combined-ca-bundle.pem
     - npm-shrinkwrap.json
-#    artifact1:
-#      files:
-#        - 'lib/client/*'
+  secondary-artifacts:
+    artifact1:
+      base-directory: lib/client/*
+      files:
+      - '**/*'
