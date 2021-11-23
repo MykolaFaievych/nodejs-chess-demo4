@@ -13,8 +13,21 @@ phases:
     commands:
     - echo Build succeeded
 artifacts:
+  secondary-artifacts:
     artifact1:
-      base-directory: ./**/*
+      base-directory: lib/client/
       files:
-      - '**/*'
-
+        - '**/*'
+    artifact2:
+      files:
+    - README.md
+    - package.json
+    - config.js
+    - gulpfile.js
+    - node_modules/**/*
+    - lib/server/**/*
+    - lib/common/**/*
+    - client/**/*
+    - tasks/*
+    - rds-combined-ca-bundle.pem
+    - npm-shrinkwrap.json
