@@ -20,14 +20,14 @@ artifacts:
         - '**/*'
     artifact2:
       files:
-    - README.md
-    - package.json
-    - config.js
-    - gulpfile.js
-    - node_modules/**/*
-    - lib/server/**/*
-    - lib/common/**/*
-    - client/**/*
-    - tasks/*
-    - rds-combined-ca-bundle.pem
-    - npm-shrinkwrap.json
+        - README.md
+        - package.json
+        - config.js
+        - gulpfile.js
+        - node_modules/**/*
+        - lib/server/**/*
+        - lib/common/**/*
+        - client/**/*
+        - tasks/*
+        - rds-combined-ca-bundle.pem
+        - npm-shrinkwrap.json
