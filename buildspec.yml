@@ -13,12 +13,10 @@ phases:
     commands:
     - echo Build succeeded
 artifacts:
-  secondary-artifacts:
     artifact1:
       base-directory: lib/client/*
       files:
       - '**/*'
-  secondary-artifacts:
     artifact2:
   files:
     - README.md
