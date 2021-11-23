@@ -19,8 +19,8 @@ artifacts:
     - config.js
     - gulpfile.js
     - node_modules/**/*
-    - lib/server/*
-    - lib/common/*
+    - lib/server/**/*
+    - lib/common/**/*
     - client/**/*
     - tasks/*
     - rds-combined-ca-bundle.pem
