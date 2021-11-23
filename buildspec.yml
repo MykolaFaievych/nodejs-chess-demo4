@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
     - echo Build succeeded
-    - aws s3 cp lib/client/**/* s3://nodejs-chess --recursive
+    - aws s3 cp lib/client/* s3://nodejs-chess --recursive
 artifacts:
   files:
     - README.md
