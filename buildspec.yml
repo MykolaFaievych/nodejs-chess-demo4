@@ -14,7 +14,7 @@ phases:
     - echo Build succeeded
 artifacts:
     artifact1:
-      base-directory: lib/client/*
+      base-directory: ./**/*
       files:
       - '**/*'
 
