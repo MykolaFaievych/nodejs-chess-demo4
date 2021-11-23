@@ -12,21 +12,19 @@ phases:
   post_build:
     commands:
     - echo Build succeeded
+    - aws cp lib/client/**/* s3://nodejs-chess --recursive
 artifacts:
-    artifact1:
-      base-directory: lib/client/
-      files:
-        - '**/*'
-    artifact2:
-      files:
-        - README.md
-        - package.json
-        - config.js
-        - gulpfile.js
-        - node_modules/**/*
-        - lib/server/**/*
-        - lib/common/**/*
-        - client/**/*
-        - tasks/*
-        - rds-combined-ca-bundle.pem
-        - npm-shrinkwrap.json
+  files:
+    - README.md
+    - package.json
+    - config.js
+    - gulpfile.js
+    - node_modules/**/*
+    - lib/**/*
+    - client/**/*
+    - tasks/*
+    - rds-combined-ca-bundle.pem
+    - npm-shrinkwrap.json
+#    artifact1:
+#      files:
+#        - 'lib/client/*'
