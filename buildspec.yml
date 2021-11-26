@@ -12,7 +12,9 @@ phases:
   post_build:
     commands:
     - echo Build succeeded
-    - aws s3 cp lib/client/ s3://nodejs-chess --recursive
+    #- aws s3 cp lib/client/ s3://nodejs-chess --recursive
+  test:
+    - npm run test
 artifacts:
   files:
     - README.md
@@ -23,8 +25,7 @@ artifacts:
     - lib/**/*
     - client/**/*
     - tasks/*
+    - test/**/*
     - rds-combined-ca-bundle.pem
     - npm-shrinkwrap.json
-#    artifact1:
-#      files:
-#        - 'lib/client/*'
+
