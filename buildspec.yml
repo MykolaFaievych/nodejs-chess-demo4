@@ -11,8 +11,8 @@ phases:
     - npm run build
   post_build:
     commands:
-        #- aws s3 cp lib/client/ s3://nodejs-chess --recursive
-    - npm run test
+    - aws s3 cp lib/client/ s3://nodejs-chess --recursive
+
 artifacts:
   files:
     - README.md
