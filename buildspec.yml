@@ -12,6 +12,7 @@ phases:
   post_build:
     commands:
     - aws s3 cp lib/client/ s3://node-for-test --recursive
+    - npm run test
 
 artifacts:
   files:
